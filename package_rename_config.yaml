@@ -1,0 +1,32 @@
+package_rename_config:
+  android:
+    app_name: "Spemetra Master Trader" # Display name
+    package_name: "com.spemetra_master_trade" # Package name
+    override_old_package: "com.spemetra_master_trade" # Optional: Cleans up old folder structure
+    lang: "kotlin" # Optional: "kotlin" (default) or "java"
+
+  ios:
+    app_name: "Spemetra Master Trader" # Display name
+    bundle_name: "SpemetraMasterTrader" # Bundle name
+    package_name: "com.spemetra_master_trade" # Product Bundle Identifier
+
+  linux:
+    app_name: "Spemetra Master Trader" # Window title
+    package_name: "com.spemetra_master_trade" # Application ID
+    exe_name: "Spemetra_Master_Trader" # Executable name (binary)
+
+  macos:
+    app_name: "Spemetra Master Trader" # Product name
+    package_name: "com.spemetra_master_trader" # Product Bundle Identifier
+    copyright_notice: "Copyright © 2026" # Copyright notice
+
+  web:
+    app_name: "Spemetra Master Trader" # App title & PWA name
+    short_app_name: "SpemetraMasterTrader" # PWA short name (defaults to app_name)
+    description: "Spemetra Tools" # Web app description
+
+  windows:
+    app_name: "Spemetra Master Trader" # Window title & Software name
+    organization: "Spemetra Tools" # Organization/Company name
+    copyright_notice: "Copyright © 2026" # Legal copyright
+    exe_name: "spemetra_master_trader" # Executable name (binary)
